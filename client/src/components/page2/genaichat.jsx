@@ -3,6 +3,7 @@ import { X, SendHorizontal, Bot, User } from "lucide-react";
 import { useRef, useState } from "react";
 const GenAiChat = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
+  const apiKey = import.meta.env.OPENAI_KEY;
   const [chats, setChats] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const showLoader =
@@ -24,8 +25,7 @@ const GenAiChat = ({ isOpen, onClose }) => {
         {
           headers: {
             "Content-Type": "application/json",
-            "openai-api-key":
-              "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",
+            "openai-api-key": apiKey,
           },
         }
       );
