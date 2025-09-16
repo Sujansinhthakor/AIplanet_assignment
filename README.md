@@ -1,4 +1,4 @@
-#<h1 align="center" id="title">GenAI App</h1>
+<h1 align="center" id="title">GenAI App</h1>
 
 <h2>🚀 Demo</h2>
 Demo Video Link : https://www.loom.com/share/1367454435e34b828eceb2ffe9781881?sid=a5df5b90-78bf-4c8d-b530-54f59e62fcd7
